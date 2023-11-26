@@ -1,0 +1,29 @@
+
+
+{
+ "name": "livestream-server", // Name of the project
+ "version": "0.0.1", // Version of the project
+ "description": "A conference call implementation using WebRTC, Socket.io and Node.js.", // Description of the project
+ "main": "src/app.js", // Entry point of the application
+  { // Dependencies required the project to run
+    "express": "^4.17.3", // Express.js is a fast, unopinionated, and minimalist web framework for Node.js
+    "serve-favicon": "^2.5.0", // Middleware for serving a favicon
+    "socket.io": "^4.6.1" // Socket.IO enables real-time, bidirectional, and event-based communication between the browser and the server
+ },
+ "devDependencies": { // Dependencies required for development
+    "nodemon": "^2.0.20" // Nodemon is a utility that will monitor for any changes in your source and automatically restart your server
+ },
+ "scripts": { // Scripts to run the project
+    "watch": "nodemon --watch \"src/\" --exec \"node src/app.js\"", // Watches for changes in the src directory and restarts the server
+    "test": "echo \"Error: no test specified\" && exit 1", // Placeholder for running tests
+    "start": "node src/app.js" // Starts the server
+ },
+ "keywords": [ // Keywords related to the project
+    "LiveStream",
+    "Server"
+ ],
+ "author": "Nimish Medatwal", // Author of the project
+ "license": "ISC" // License of the project
+}
+//
+//This JSON file provides the necessary information for the project. It includes the project name, version, description, main entry point, dependencies, development dependencies, scripts, keywords, author, and license..</s>
