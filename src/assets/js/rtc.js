@@ -1,7 +1,3 @@
-/**
- * @author Amir Sanni <amirsanni@gmail.com>
- * @date 6th January, 2020
- */
 import h from './helpers.js';
 
 window.addEventListener( 'load', () => {
@@ -408,7 +404,6 @@ window.addEventListener( 'load', () => {
             e.preventDefault();
 
             let elem = document.getElementById( 'toggle-mute' );
-
             if ( myStream.getAudioTracks()[0].enabled ) {
                 e.target.classList.remove( 'fa-microphone-alt' );
                 e.target.classList.add( 'fa-microphone-alt-slash' );

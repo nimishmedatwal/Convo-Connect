@@ -1,3 +1,64 @@
+body{
+    background-color: #040A20;
+    height: 100vh;
+}
+.container-fluid{
+    height: 100vh;
+    vertical-align: middle !important;
+}
+.heading{
+    color: #f3f3f3 !important;
+}
+.roomname{
+    color: #f3f3f3 !important;
+}
+#enter-room{
+    border-radius: 10px !important;
+    background: linear-gradient(115deg, #5097D9 12.4%, #2B6BA6 82.19%) !important; 
+}
+#room-name{
+    border-radius: 10px !important;
+    border: none !important;
+    background: #C1C1C1;
+    box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.38);
+}
+#your-name{
+    border-radius: 10px !important;
+    border: none !important;
+    background: #C1C1C1;
+    box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.38);
+}
+#create-room{
+    border-radius: 10px !important;
+    background: linear-gradient(115deg, #5097D9 12.4%, #2B6BA6 82.19%) !important;
+}
+#room-created{
+    color: #f3f3f3 !important;
+}
+#username{
+    border-radius: 10px !important;
+    border: none !important;
+    background: #C1C1C1;
+    box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.38);CK ONE SUMMER 2019 EDT 100ML
+
+}
+.btn-sm{
+    background-color: #535353 !important;
+    border-radius: 10px !important;
+}
+.leavemeet{
+    background-color: rgb(99, 35, 35) !important;
+    border: 1px solid;
+    border-color: rgb(225, 57, 57) !important;
+}
+
+.navbar{
+    border-radius: 10px !important;
+    background: #161D34 !important;
+    margin:2rem !important;
+    padding: 1rem !important;
+}
+
 .chat-col{
     right: -100vw;
     bottom: 0;
@@ -96,7 +157,9 @@
     bottom: 0;
     left: 0;
     position: fixed;
-    width:15vw;
+    width:23vw;
+    padding: 1rem;
+    border-radius: 10px !important;
 }
 
 
