@@ -118,7 +118,7 @@ export default {
         let chatMsgDiv = document.querySelector('#chat-messages');
         let contentAlign = 'justify-content-end';
         let senderName = 'You';
-        let msgBg = 'bg-white';
+        let msgBg = 'senderbg';
 
         if (senderType === 'remote') {
             contentAlign = 'justify-content-start';
@@ -256,7 +256,7 @@ export default {
     adjustVideoElemSize() {
         let elem = document.getElementsByClassName('card');
         let totalRemoteVideosDesktop = elem.length;
-        let newWidth = totalRemoteVideosDesktop <= 2 ? '50%' : (
+        let newWidth = totalRemoteVideosDesktop <= 2 ? '40%' : (
             totalRemoteVideosDesktop == 3 ? '33.33%' : (
                 totalRemoteVideosDesktop <= 8 ? '25%' : (
                     totalRemoteVideosDesktop <= 15 ? '20%' : (

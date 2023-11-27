@@ -16,3 +16,4 @@ app.get( '/', ( req, res ) => {
 
 io.of( '/stream' ).on( 'connection', stream );
 server.listen( 3001 );
+console.log( "Listening on port: ", 3001);
