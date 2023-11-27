@@ -29,6 +29,7 @@ body{
     border-radius: 10px !important;
     border: none !important;
     background: #C1C1C1;
+    color:#040A20 !important;
     box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.38);
 }
 #create-room{
@@ -43,6 +44,8 @@ body{
     border: none !important;
     background: #C1C1C1;
     box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.38);
+    color:#040A20 !important;
+
 
 }
 #chat-input{
@@ -315,8 +318,11 @@ body{
     .card-sm{
         max-width: 100%;
         min-width: 50%;
+        margin-right: 2em;
     }
-
+    .card{
+        gap: 1.5rem !important;
+    }
 
     .local-video{
         width:40vw;
