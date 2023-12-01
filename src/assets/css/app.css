@@ -21,9 +21,9 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 20px;
 }
-#room-create{
-    background-image: url('https://res.cloudinary.com/dcvqnyvvt/image/upload/v1701458336/bg_oveott.avif');
-    background-size: cover;
+#room-create {
+  background-image: url("https://res.cloudinary.com/dcvqnyvvt/image/upload/v1701458336/bg_oveott.avif");
+  background-size: cover;
 }
 .heading {
   color: #f3f3f3 !important;
@@ -70,10 +70,13 @@ body {
   background-color: #676767 !important;
   border-bottom-left-radius: 10px !important;
   border-top-left-radius: 10px !important;
-  border: #ffffff solid 1px !important;
+  border: #777777 solid 1px !important;
+  margin-left: 5px;
 }
 #chat-input::placeholder {
-  color: #ffffff !important;
+  color: rgb(35, 35, 35) !important;
+  font-style: normal;
+  
 }
 .input-group {
   color: #f1f1f1 !important;
@@ -84,8 +87,9 @@ body {
 .chatsend {
   border-bottom-right-radius: 10px !important;
   border-top-right-radius: 10px !important;
-  border: #ffffff solid 1px !important;
+  border: #676767 solid 1px !important;
   background-color: #040a20 !important;
+  margin-right: 5px;
 }
 .btn-sm {
   background-color: #535353 !important;
@@ -233,6 +237,8 @@ body {
 }
 .senderbg {
   background-color: #040a20 !important;
+  padding-bottom: 8px !important;
+  padding-top: 8px !important;
 }
 
 .btn-no-effect:focus {
@@ -278,12 +284,15 @@ body {
 }
 
 .custom-modal-content {
-  background-color: #fefefe;
   margin: 15% auto;
-  padding: 20px;
-  border: 1px solid #17a2b8;
-  border-radius: 10px;
-  width: 80%;
+  padding: 60px 20px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  width: 50%;
 }
 
 @keyframes animatetop {
