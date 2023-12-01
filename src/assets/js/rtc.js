@@ -14,7 +14,7 @@ window.addEventListener( 'load', () => {
 
     else {
         let commElem = document.getElementsByClassName( 'room-comm' );
-
+        document.querySelector( '.navbar' ).attributes.removeNamedItem( 'hidden' );
         for ( let i = 0; i < commElem.length; i++ ) {
             commElem[i].attributes.removeNamedItem( 'hidden' );
         }
