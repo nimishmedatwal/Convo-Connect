@@ -21,7 +21,11 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 20px;
 }
-#room-create {
+#room-create{
+  background-image: url("https://res.cloudinary.com/dcvqnyvvt/image/upload/v1701458336/bg_oveott.avif");
+  background-size: cover;
+}
+#username-set{
   background-image: url("https://res.cloudinary.com/dcvqnyvvt/image/upload/v1701458336/bg_oveott.avif");
   background-size: cover;
 }
@@ -240,7 +244,9 @@ body {
   padding-bottom: 8px !important;
   padding-top: 8px !important;
 }
-
+.joinmeet{
+  color: #f1f1f1;
+}
 .btn-no-effect:focus {
   box-shadow: none;
 }
