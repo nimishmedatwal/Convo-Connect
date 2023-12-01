@@ -1,6 +1,6 @@
-# WebRTC Conference Call Demo
+# ConvoConnect
 
-Welcome to the WebRTC Conference Call Demo, a simple yet powerful implementation using WebRTC, Socket.io, and Node.js. This demo is designed for a seamless conference experience with up to ten devices. Whether you're hosting a small meeting or collaborating with a small team, this application provides essential features for effective communication.
+Welcome to the ConvoConnect, a simple yet powerful implementation using WebRTC, Socket.io, and Node.js. This demo is designed for a seamless conference experience with up to ten devices. Whether you're hosting a small meeting or collaborating with a small team, this application provides essential features for effective communication.
 
 ## Getting Started
 
